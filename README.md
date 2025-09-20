@@ -246,9 +246,9 @@ Ce projet est libre d'utilisation. Tout le monde peut l'utiliser, le modifier et
 
 ## 👥 Auteurs
 
-- **Hassan PAZIAUD** - Développement principal
-- **Fatimetou ABDEL MOLA** - Contributeur
-- **Benycna LIENOU** - Contributeur
+- **Hassan PAZIAUD** - Dirigeant
+- **Fatimetou ABDEL MOLA**
+- **Benycna LIENOU**
 
 ## 📞 Support
 
