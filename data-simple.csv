@@ -1,0 +1,6 @@
+path,weight,req,ttfb,load
+/home,1200,45,180,900
+/about,800,30,150,700
+/contact,950,35,200,850
+/products,1500,60,250,1200
+/blog,1100,50,220,950

@@ -1,0 +1,11 @@
+Page URL,Size (MB),HTTP Requests,First Byte (ms),Load Duration (ms)
+"https://example.com/",1.2,45,180,900
+"https://example.com/about",0.8,30,150,700
+"https://example.com/contact",0.95,35,200,850
+"https://example.com/products",1.5,60,250,1200
+"https://example.com/product/1",1.8,75,300,1400
+"https://example.com/blog",1.1,50,220,950
+"https://example.com/services",0.9,40,190,800
+"https://example.com/portfolio",2.0,80,350,1600
+"https://example.com/team",0.75,25,140,650
+"https://example.com/careers",0.85,35,160,750

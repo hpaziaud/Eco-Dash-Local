@@ -1,0 +1,45 @@
+{
+  "name": "ecodash-local",
+  "version": "1.0.0",
+  "description": "Tableau de bord sobriété numérique - Analyse de l'impact environnemental des sites web",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx live-server .",
+    "test": "npx http-server . -p 8080",
+    "build": "echo 'Build completed - static files ready'",
+    "install-deps": "npm install",
+    "setup": "npm install && npm start"
+  },
+  "keywords": [
+    "sobriété-numérique",
+    "écologie",
+    "web",
+    "performance",
+    "dashboard",
+    "csv",
+    "chart.js",
+    "carbon-footprint",
+    "sustainability",
+    "green-it"
+  ],
+  "author": "hpaziaud",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1",
+    "live-server": "^1.2.2",
+    "http-server": "^14.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hpaziaud/Eco-Dash-Local.git"
+  },
+  "homepage": "https://github.com/hpaziaud/Eco-Dash-Local#readme",
+  "bugs": {
+    "url": "https://github.com/hpaziaud/Eco-Dash-Local/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoDash Local - Tableau de bord sobriété numérique</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌱 EcoDash Local</h1>
+            <p>Tableau de bord sobriété numérique</p>
+            <div style="margin-top: 20px;">
+                <div style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center;">
+                    <a href="navigation.html" style="color: white; text-decoration: none; background: rgba(255,255,255,0.3); padding: 8px 16px; border-radius: 20px; font-size: 0.9rem; transition: all 0.3s ease; font-weight: bold;">
+                        🗺️ Navigation
+                    </a>
+                    <a href="demo.html" style="color: white; text-decoration: none; background: rgba(255,255,255,0.2); padding: 8px 16px; border-radius: 20px; font-size: 0.9rem; transition: all 0.3s ease;">
+                        🚀 Démonstration
+                    </a>
+                    <a href="test.html" style="color: white; text-decoration: none; background: rgba(255,255,255,0.2); padding: 8px 16px; border-radius: 20px; font-size: 0.9rem; transition: all 0.3s ease;">
+                        🧪 Tests
+                    </a>
+                    <a href="csv-formats.html" style="color: white; text-decoration: none; background: rgba(255,255,255,0.2); padding: 8px 16px; border-radius: 20px; font-size: 0.9rem; transition: all 0.3s ease;">
+                        📊 Formats CSV
+                    </a>
+                    <a href="README.md" style="color: white; text-decoration: none; background: rgba(255,255,255,0.2); padding: 8px 16px; border-radius: 20px; font-size: 0.9rem; transition: all 0.3s ease;">
+                        📚 Documentation
+                    </a>
+                    <a href="INSTALL.md" style="color: white; text-decoration: none; background: rgba(255,255,255,0.2); padding: 8px 16px; border-radius: 20px; font-size: 0.9rem; transition: all 0.3s ease;">
+                        🔧 Installation
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <!-- Section d'import CSV -->
+            <section class="import-section">
+                <div class="upload-area" id="uploadArea">
+                    <div class="upload-content">
+                        <div class="upload-icon">📁</div>
+                        <h3>Importer un fichier CSV</h3>
+                        <p>Glissez-déposez votre fichier CSV ou cliquez pour sélectionner</p>
+                        <input type="file" id="csvFile" accept=".csv" hidden>
+                        <button class="btn-primary" onclick="document.getElementById('csvFile').click()">
+                            Choisir un fichier
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section des KPI -->
+            <section class="kpi-section" id="kpiSection" style="display: none;">
+                <h2>📊 Indicateurs de Performance</h2>
+                <div class="kpi-grid">
+                    <div class="kpi-card">
+                        <div class="kpi-icon">📦</div>
+                        <div class="kpi-content">
+                            <h3>Poids moyen</h3>
+                            <div class="kpi-value" id="avgSize">-</div>
+                            <div class="kpi-unit">KB</div>
+                        </div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-icon">🔗</div>
+                        <div class="kpi-content">
+                            <h3>Requêtes moyennes</h3>
+                            <div class="kpi-value" id="avgRequests">-</div>
+                            <div class="kpi-unit">requêtes</div>
+                        </div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-icon">⏱️</div>
+                        <div class="kpi-content">
+                            <h3>Temps de chargement</h3>
+                            <div class="kpi-value" id="avgLoadTime">-</div>
+                            <div class="kpi-unit">ms</div>
+                        </div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-icon">🌍</div>
+                        <div class="kpi-content">
+                            <h3>Empreinte carbone</h3>
+                            <div class="kpi-value" id="avgCarbon">-</div>
+                            <div class="kpi-unit">g CO₂e</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section des graphiques -->
+            <section class="charts-section" id="chartsSection" style="display: none;">
+                <h2>📈 Visualisations</h2>
+                <div class="charts-grid">
+                    <div class="chart-container">
+                        <h3>Poids des pages</h3>
+                        <canvas id="sizeChart"></canvas>
+                    </div>
+                    <div class="chart-container">
+                        <h3>Nombre de requêtes</h3>
+                        <canvas id="requestsChart"></canvas>
+                    </div>
+                    <div class="chart-container">
+                        <h3>Temps de chargement</h3>
+                        <canvas id="loadTimeChart"></canvas>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Section des recommandations -->
+            <section class="recommendations-section" id="recommendationsSection" style="display: none;">
+                <h2>💡 Recommandations d'optimisation</h2>
+                <div class="recommendations-grid" id="recommendationsGrid">
+                    <!-- Les recommandations seront générées dynamiquement -->
+                </div>
+            </section>
+
+            <!-- Section d'export -->
+            <section class="export-section" id="exportSection" style="display: none;">
+                <h2>📄 Export du rapport</h2>
+                <div class="export-actions">
+                    <button class="btn-secondary" onclick="exportToPDF()">
+                        📄 Exporter en PDF
+                    </button>
+                    <button class="btn-secondary" onclick="simulateOptimization()">
+                        🚀 Simuler l'optimisation
+                    </button>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>EcoDash Local - Sensibilisation à la sobriété numérique</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
