@@ -69,8 +69,6 @@ Puis ouvrir : **http://localhost:3000**
 
 ## 🎯 Utilisation avec Visual Studio Code
 
-**📖 [Guide complet VS Code →](VSCODE-SETUP.md)**
-
 ### Installation de l'extension Live Server
 
 1. Ouvrez Visual Studio Code
@@ -135,16 +133,11 @@ path,weight
 EcoDash-Local/
 ├── 📄 index.html              # Application principale
 ├── 🗺️ navigation.html         # Page de navigation
-├── 🚀 demo.html               # Démonstration
-├── 🧪 test.html               # Tests et diagnostic
 ├── 📊 csv-formats.html        # Guide des formats CSV
 ├── 🎨 style.css               # Styles CSS
 ├── ⚙️ script.js               # Logique JavaScript
 ├── 📦 package.json            # Configuration npm
 ├── 📚 README.md               # Cette documentation
-├── 🔧 INSTALL.md              # Guide d'installation détaillé
-├── 🚀 start.bat               # Script de démarrage Windows
-├── 🐧 start.sh                # Script de démarrage Linux/Mac
 └── 📊 data-*.csv              # Fichiers de test
 ```
 
@@ -177,8 +170,6 @@ npm run build
 
 - **🏠 Application** : http://localhost:3000/index.html
 - **🗺️ Navigation** : http://localhost:3000/navigation.html
-- **🚀 Démonstration** : http://localhost:3000/demo.html
-- **🧪 Tests** : http://localhost:3000/test.html
 - **📊 Formats CSV** : http://localhost:3000/csv-formats.html
 
 ## 🧮 Méthode de Calcul
@@ -242,13 +233,6 @@ rm -rf node_modules
 npm install
 ```
 
-## 🤝 Contribution
-
-1. Fork le projet
-2. Créer une branche feature (`git checkout -b feature/AmazingFeature`)
-3. Commiter les changements (`git commit -m 'Add some AmazingFeature'`)
-4. Pousser vers la branche (`git push origin feature/AmazingFeature`)
-5. Ouvrir une Pull Request
 
 ## 📄 Utilisation
 
