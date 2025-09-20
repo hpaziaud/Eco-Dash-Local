@@ -154,3 +154,9 @@ Si vous rencontrez des problèmes :
 ---
 
 **EcoDash Local** - Installation réussie ! 🌱
+
+## 👥 Auteurs
+
+- **Hassan PAZIAUD** - Développement principal
+- **Fatimetou ABDEL MOLA** - Contributeur
+- **Benycna LIENOU** - Contributeur

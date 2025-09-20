@@ -250,15 +250,15 @@ npm install
 4. Pousser vers la branche (`git push origin feature/AmazingFeature`)
 5. Ouvrir une Pull Request
 
-## 📄 Licence
+## 📄 Utilisation
 
-Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
+Ce projet est libre d'utilisation. Tout le monde peut l'utiliser, le modifier et le partager.
 
 ## 👥 Auteurs
 
-- **Développement** : [@hpaziaud](https://github.com/hpaziaud)
-- **Design** : Interface responsive moderne
-- **Données** : Dataset synthétique réaliste
+- **Hassan PAZIAUD** - Développement principal
+- **Fatimetou ABDEL MOLA** - Contributeur
+- **Benycna LIENOU** - Contributeur
 
 ## 📞 Support
 

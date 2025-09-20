@@ -23,8 +23,7 @@
     "sustainability",
     "green-it"
   ],
-  "author": "hpaziaud",
-  "license": "MIT",
+  "author": "Hassan PAZIAUD",
   "devDependencies": {
     "serve": "^14.2.1",
     "live-server": "^1.2.2",

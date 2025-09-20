@@ -234,9 +234,11 @@ EcoDash-Local/
 - **Discussions** : Pour questions générales
 - **Pull Requests** : Pour contributions
 
-## 🙏 Reconnaissance
+## 👥 Auteurs
 
-Tous les contributeurs seront mentionnés dans le README et les releases.
+- **Hassan PAZIAUD** - Développement principal
+- **Fatimetou ABDEL MOLA** - Contributeur
+- **Benycna LIENOU** - Contributeur
 
 ---
 

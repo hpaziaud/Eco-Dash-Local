@@ -233,3 +233,9 @@ npm start
 ---
 
 **EcoDash Local** - Développement avec VS Code 🌱
+
+## 👥 Auteurs
+
+- **Hassan PAZIAUD** - Développement principal
+- **Fatimetou ABDEL MOLA** - Contributeur
+- **Benycna LIENOU** - Contributeur
