@@ -20,13 +20,6 @@ EcoDash Local est une application web qui permet d'analyser l'empreinte carbone 
 - 🚀 **Simulation d'optimisation** avant/après
 - 📱 **Interface responsive** et moderne
 
-## 🚀 Utilisation
-
-1. **Cloner le projet** : `git clone https://github.com/hpaziaud/Eco-Dash-Local.git`
-2. **Ouvrir dans VS Code** : `code .`
-3. **Installer les dépendances** : `npm install`
-4. **Lancer le projet** : Clic droit sur `index.html` → "Open with Live Server"
-
 ## 📊 Formats CSV Supportés
 
 EcoDash Local accepte différents formats de CSV grâce à sa détection automatique :
