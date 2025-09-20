@@ -67,8 +67,6 @@ EcoDash-Local/
 ├── ⚙️ script.js               # Logique JavaScript
 ├── 📦 package.json            # Configuration npm
 ├── 📚 README.md               # Cette documentation
-├── 🚀 start.bat               # Script de démarrage Windows
-├── 🐧 start.sh                # Script de démarrage Linux/Mac
 └── 📊 data-*.csv              # Fichiers de test
 ```
 
