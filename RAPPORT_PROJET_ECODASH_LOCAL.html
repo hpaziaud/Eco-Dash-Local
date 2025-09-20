@@ -694,6 +694,63 @@ const totalCarbon = data.reduce((sum, page) => sum + calculateCarbonFootprint(pa
         <li>Export de données en différents formats (Excel, JSON) pour faciliter l'intégration</li>
         <li>Version mobile native pour étendre l'accessibilité de notre solution</li>
     </ul>
+    
+    <h2>11.4 Méthode d'installation et utilisation</h2>
+    <p>Pour permettre à d'autres développeurs ou utilisateurs de reproduire notre projet, nous avons documenté une méthode d'installation complète :</p>
+    
+    <h3>11.4.1 Prérequis</h3>
+    <ul>
+        <li><strong>Node.js</strong> (version 14+) : [Télécharger](https://nodejs.org/)</li>
+        <li><strong>Visual Studio Code</strong> : [Télécharger](https://code.visualstudio.com/)</li>
+        <li><strong>Extension Live Server</strong> pour VS Code</li>
+    </ul>
+    
+    <h3>11.4.2 Étapes d'installation</h3>
+    <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; border-left: 4px solid #2E8B57; margin: 15px 0;">
+        <p><strong>1. Cloner le projet</strong></p>
+        <div class="code-block">
+git clone https://github.com/hpaziaud/Eco-Dash-Local.git
+cd Eco-Dash-Local
+        </div>
+        
+        <p><strong>2. Ouvrir dans VS Code</strong></p>
+        <div class="code-block">
+code .
+        </div>
+        
+        <p><strong>3. Installer l'extension Live Server</strong></p>
+        <ul>
+            <li>Ouvrir VS Code</li>
+            <li>Aller dans Extensions (Ctrl+Shift+X)</li>
+            <li>Rechercher "Live Server"</li>
+            <li>Installer l'extension par Ritwick Dey</li>
+        </ul>
+        
+        <p><strong>4. Installer les dépendances</strong></p>
+        <div class="code-block">
+npm install
+        </div>
+        
+        <p><strong>5. Lancer le projet</strong></p>
+        <ul>
+            <li>Clic droit sur <code>index.html</code></li>
+            <li>Sélectionner "Open with Live Server"</li>
+            <li>Le navigateur s'ouvre automatiquement</li>
+        </ul>
+    </div>
+    
+    <h3>11.4.3 Utilisation de l'application</h3>
+    <p>Une fois l'application lancée, l'utilisateur peut :</p>
+    <ul>
+        <li>Charger un fichier CSV via le bouton "Choisir un fichier" ou par drag & drop</li>
+        <li>Visualiser automatiquement les KPIs calculés (poids, requêtes, temps, empreinte carbone)</li>
+        <li>Consulter les graphiques interactifs générés par Chart.js</li>
+        <li>Lire les recommandations automatiques d'optimisation</li>
+        <li>Exporter un rapport PDF via le bouton "Exporter PDF"</li>
+        <li>Naviguer vers les pages de démonstration, tests et documentation</li>
+    </ul>
+    
+    <p><strong>Formats CSV supportés :</strong> L'application accepte différents formats de CSV grâce à sa détection automatique des colonnes. Les utilisateurs peuvent utiliser leurs propres fichiers avec des noms de colonnes variés (en français ou anglais) et des unités différentes (KB, MB, GB).</p>
 
     <h1 id="remerciements">12. REMERCIEMENTS</h1>
     
