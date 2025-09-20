@@ -20,78 +20,12 @@ EcoDash Local est une application web qui permet d'analyser l'empreinte carbone 
 - 🚀 **Simulation d'optimisation** avant/après
 - 📱 **Interface responsive** et moderne
 
-## 🚀 Installation Rapide
+## 🚀 Utilisation
 
-### Prérequis
-
-- **Node.js** (version 14 ou supérieure) : [Télécharger ici](https://nodejs.org/)
-- **Visual Studio Code** : [Télécharger ici](https://code.visualstudio.com/)
-- **Extension Live Server** pour VS Code
-
-### 1. Cloner le projet
-
-```bash
-git clone https://github.com/hpaziaud/Eco-Dash-Local.git
-cd Eco-Dash-Local
-```
-
-### 2. Ouvrir dans VS Code
-
-```bash
-code .
-```
-
-### 3. Installer les extensions recommandées
-
-VS Code vous proposera automatiquement d'installer les extensions recommandées :
-- **Live Server** (Ritwick Dey)
-- **Prettier** (Code formatter)
-- **Auto Rename Tag**
-
-### 4. Installer les dépendances
-
-```bash
-npm install
-```
-
-### 5. Lancer le projet
-
-**Option A - Avec Live Server (Recommandé) :**
-1. Clic droit sur `index.html`
-2. Sélectionner "Open with Live Server"
-3. Le navigateur s'ouvre automatiquement
-
-**Option B - Avec le terminal :**
-```bash
-npm start
-```
-Puis ouvrir : **http://localhost:3000**
-
-## 🎯 Utilisation avec Visual Studio Code
-
-### Installation de l'extension Live Server
-
-1. Ouvrez Visual Studio Code
-2. Allez dans l'onglet Extensions (Ctrl+Shift+X)
-3. Recherchez "Live Server"
-4. Installez l'extension **Live Server** par Ritwick Dey
-
-### Lancement avec Live Server
-
-1. Ouvrez le dossier du projet dans VS Code
-2. Clic droit sur `index.html`
-3. Sélectionnez **"Open with Live Server"**
-4. Le projet s'ouvrira automatiquement dans votre navigateur
-
-### Alternative : Terminal intégré
-
-1. Ouvrez le terminal intégré dans VS Code (Ctrl+`)
-2. Exécutez les commandes :
-
-```bash
-npm install
-npm start
-```
+1. **Cloner le projet** : `git clone https://github.com/hpaziaud/Eco-Dash-Local.git`
+2. **Ouvrir dans VS Code** : `code .`
+3. **Installer les dépendances** : `npm install`
+4. **Lancer le projet** : Clic droit sur `index.html` → "Open with Live Server"
 
 ## 📊 Formats CSV Supportés
 
@@ -145,7 +79,7 @@ EcoDash-Local/
 └── 📊 data-*.csv              # Fichiers de test
 ```
 
-## 🎮 Utilisation
+## 🎮 Comment utiliser l'application
 
 1. **Ouvrir l'application** : http://localhost:3000
 2. **Importer des données** : Glisser-déposer ou sélectionner un fichier CSV
