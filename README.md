@@ -20,6 +20,42 @@ EcoDash Local est une application web qui permet d'analyser l'empreinte carbone 
 - 🚀 **Simulation d'optimisation** avant/après
 - 📱 **Interface responsive** et moderne
 
+## 🚀 Installation et Démarrage
+
+### Prérequis
+- **Node.js** (version 14+) : [Télécharger](https://nodejs.org/)
+- **Visual Studio Code** : [Télécharger](https://code.visualstudio.com/)
+- **Extension Live Server** pour VS Code
+
+### Étapes d'installation
+
+1. **Cloner le projet**
+```bash
+git clone https://github.com/hpaziaud/Eco-Dash-Local.git
+cd Eco-Dash-Local
+```
+
+2. **Ouvrir dans VS Code**
+```bash
+code .
+```
+
+3. **Installer l'extension Live Server**
+   - Ouvrir VS Code
+   - Aller dans Extensions (Ctrl+Shift+X)
+   - Rechercher "Live Server"
+   - Installer l'extension par Ritwick Dey
+
+4. **Installer les dépendances**
+```bash
+npm install
+```
+
+5. **Lancer le projet**
+   - Clic droit sur `index.html`
+   - Sélectionner "Open with Live Server"
+   - Le navigateur s'ouvre automatiquement
+
 ## 📊 Formats CSV Supportés
 
 EcoDash Local accepte différents formats de CSV grâce à sa détection automatique :
