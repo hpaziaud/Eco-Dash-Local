@@ -35,23 +35,41 @@ git clone https://github.com/hpaziaud/Eco-Dash-Local.git
 cd Eco-Dash-Local
 ```
 
-### 2. Installer les dépendances
+### 2. Ouvrir dans VS Code
+
+```bash
+code .
+```
+
+### 3. Installer les extensions recommandées
+
+VS Code vous proposera automatiquement d'installer les extensions recommandées :
+- **Live Server** (Ritwick Dey)
+- **Prettier** (Code formatter)
+- **Auto Rename Tag**
+
+### 4. Installer les dépendances
 
 ```bash
 npm install
 ```
 
-### 3. Lancer le projet
+### 5. Lancer le projet
 
+**Option A - Avec Live Server (Recommandé) :**
+1. Clic droit sur `index.html`
+2. Sélectionner "Open with Live Server"
+3. Le navigateur s'ouvre automatiquement
+
+**Option B - Avec le terminal :**
 ```bash
 npm start
 ```
-
-### 4. Ouvrir dans le navigateur
-
-Ouvrez votre navigateur et allez à : **http://localhost:3000**
+Puis ouvrir : **http://localhost:3000**
 
 ## 🎯 Utilisation avec Visual Studio Code
+
+**📖 [Guide complet VS Code →](VSCODE-SETUP.md)**
 
 ### Installation de l'extension Live Server
 
