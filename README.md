@@ -133,11 +133,15 @@ path,weight
 EcoDash-Local/
 ├── 📄 index.html              # Application principale
 ├── 🗺️ navigation.html         # Page de navigation
+├── 🚀 demo.html               # Démonstration
+├── 🧪 test.html               # Tests et diagnostic
 ├── 📊 csv-formats.html        # Guide des formats CSV
 ├── 🎨 style.css               # Styles CSS
 ├── ⚙️ script.js               # Logique JavaScript
 ├── 📦 package.json            # Configuration npm
 ├── 📚 README.md               # Cette documentation
+├── 🚀 start.bat               # Script de démarrage Windows
+├── 🐧 start.sh                # Script de démarrage Linux/Mac
 └── 📊 data-*.csv              # Fichiers de test
 ```
 
@@ -170,6 +174,8 @@ npm run build
 
 - **🏠 Application** : http://localhost:3000/index.html
 - **🗺️ Navigation** : http://localhost:3000/navigation.html
+- **🚀 Démonstration** : http://localhost:3000/demo.html
+- **🧪 Tests** : http://localhost:3000/test.html
 - **📊 Formats CSV** : http://localhost:3000/csv-formats.html
 
 ## 🧮 Méthode de Calcul
